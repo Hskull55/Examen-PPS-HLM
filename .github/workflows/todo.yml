@@ -1,7 +1,7 @@
 name: CI/CD completo Examen HLM
 
 env:
-  IMAGE_NAME: hskull55/api-lasanta:latest
+  IMAGE_NAME: api-lasanta:latest
   # FILES: compose.yml
 
 # GitHub Secrets
