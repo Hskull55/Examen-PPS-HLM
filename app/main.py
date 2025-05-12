@@ -8,5 +8,9 @@ app = FastAPI()
 def on_startup():
     create_db_and_tables()
 
+@app.get("/version")
+def version():
+    return {"message": "Lasanta Martín, Héctor - v55"}
+
 app.include_router( tasks.router )
 
