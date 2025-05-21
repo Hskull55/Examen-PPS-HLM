@@ -12,7 +12,8 @@ def on_startup():
 
 @app.get("/version")
 def version():
-    return {"message": "Lasanta Martín, Héctor - v55"}
+    test = true
+    return {"message": "Lasanta Martín, Héctor - v.60 Ango"}
 
 
 app.include_router(tasks.router)
