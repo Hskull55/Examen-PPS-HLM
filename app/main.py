@@ -12,7 +12,7 @@ def on_startup():
 
 @app.get("/version")
 def version():
-    test = true
+    # test = true
     return {"message": "Lasanta Martín, Héctor - v.60 Ango"}
 
 
